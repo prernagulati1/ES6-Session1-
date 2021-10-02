@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const user = { 
+            firstName: "Sahil", 
+            lastName: "Dua",
+            Address: { Line1: "address line 1", 
+                        Line2: "address line 2", 
+                        State: "Delhi",
+                        Pin: 10085, 
+                        Country: "India", 
+                        City: "New Delhi",
+                    },
+            phoneNo: 999999999,
+        }
+
+        const { firstName, lastName } = user;
+        const { Line1, Line2, State, Pin, Country, City } = user.Address;
+        const { phoneNo } = user.phoneNo;
+
+</script>
+</body>
+</html>
